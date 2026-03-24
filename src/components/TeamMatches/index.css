@@ -93,16 +93,18 @@
 
 .latestMatchesCardContainer {
   background-color: #1e293b;
-  height: 400px;
+  min-height: 400px;
   width: 100%;
   border-radius: 10px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
   margin-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .recentMatchesCardsContainer {

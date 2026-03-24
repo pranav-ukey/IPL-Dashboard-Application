@@ -57,20 +57,25 @@ class TeamMatches extends Component {
       teamBannerUrl: updatedTeamBannerUrl,
       latestMatchDetails: updatedLatestMatchDetails,
       recentMatches: updatedRecentMacthes,
-      id: id,
+      id,
       isLoading: false,
     })
   }
 
   render() {
-    const {teamBannerUrl, latestMatchDetails, recentMatches, id, isLoading} =
-      this.state
+    const {
+      teamBannerUrl,
+      latestMatchDetails,
+      recentMatches,
+      id,
+      isLoading,
+    } = this.state
     console.log(teamBannerUrl)
     console.log(latestMatchDetails)
     console.log(recentMatches)
     console.log(id)
     return isLoading ? (
-      <div testid="loader">
+      <div data-testid="loader">
         <Loader type="Oval" color="#ffffff" height={50} width={50} />
       </div>
     ) : (

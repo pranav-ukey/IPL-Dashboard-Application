@@ -1,4 +1,4 @@
-.competingTeamLogo {
+.competingTeamLogo1 {
   height: 200px;
   width: 200px;
 }
@@ -10,19 +10,25 @@
   font-family: 'Bree Serif';
 }
 
-.competingTeam {
-  font-size: 24px;
+.competingTeam1 {
+  font-size: 32px;
   color: white;
 }
 
-.date {
-  font-size: 20px;
+.date1 {
+  font-size: 28px;
   color: white;
 }
 
-.text {
+.text1 {
   color: white;
-  font-size: 14px;
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.text2 {
+  color: white;
+  font-size: 18px;
   font-weight: 200;
 }
 
@@ -36,8 +42,10 @@
   margin-bottom: 30px;
 }
 
-.title {
-  font-size: 18px;
+.title1 {
+  font-size: 24px;
   color: white;
   font-weight: 300;
+  padding-bottom: 10px;
+  margin-bottom: 0;
 }
