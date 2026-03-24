@@ -1,0 +1,31 @@
+.nav-link {
+  text-decoration: none;
+}
+
+.cardContainer {
+  height: 150px;
+  width: 280px;
+  background-color: #ffffff33;
+  border: solid 1px #475569;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 10px;
+}
+
+.iplTeamLogo {
+  height: 110px;
+  width: 110px;
+}
+
+.iplTeamName {
+  color: white;
+  font-family: 'Bree Serif';
+  font-size: 20px;
+  text-align: center;
+  font-weight: 300;
+}
